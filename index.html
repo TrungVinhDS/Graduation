@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Thiệp mời tốt nghiệp — Trần Phan Hải Bằng</title>
+  <title>Thiệp mời tốt nghiệp — Lê Nguyễn Trung Vĩnh</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -777,7 +777,7 @@
     </svg>
 
     <h1 class="title">LỄ TỐT NGHIỆP</h1>
-    <p class="subtitle">Trường Đại học Công nghệ Thông tin — UIT</p>
+    <p class="subtitle">Trường Đại học Công nghiệp TP.HCM — IUH</p>
 
     <div class="divider" aria-hidden="true">
       <span class="line"></span>
@@ -809,7 +809,7 @@
       <span class="line"></span>
     </div>
 
-    <p class="grad-name">Trần Phan Hải Bằng</p>
+    <p class="grad-name">Lê Nguyễn Trung Vĩnh</p>
 
     <div class="info-section">
       <div class="info-row">
@@ -818,7 +818,7 @@
           <circle cx="12" cy="12" r="10" />
           <polyline points="12 6 12 12 16 14" />
         </svg>
-        <span>08:00 — Thứ Năm, ngày 11 tháng 6 năm 2026</span>
+        <span>10:00 — Thứ Tư, ngày 25 tháng 11 năm 2026</span>
       </div>
       <div class="info-row">
         <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -827,9 +827,9 @@
           <circle cx="12" cy="10" r="3" />
         </svg>
         <span>
-          <a href="https://maps.app.goo.gl/4kMBGR9QRkGMpt42A" target="_blank" rel="noopener">
-            Trường Đại học Công nghệ Thông tin<br>
-            Khu phố 6, Linh Trung, Thủ Đức, TP.HCM
+          <a href="https://www.google.com/maps/search/?api=1&query=Tr%C6%B0%E1%BB%9Dng+%C4%90%E1%BA%A1i+h%E1%BB%8Dc+C%C3%B4ng+nghi%E1%BB%87p+TP.HCM+12+Nguy%E1%BB%85n+V%C4%83n+B%E1%BA%A3o" target="_blank" rel="noopener">
+            Trường Đại học Công nghiệp TP.HCM<br>
+            12 Nguyễn Văn Bảo, Phường Hạnh Thông, TP.HCM
           </a>
         </span>
       </div>
@@ -851,7 +851,7 @@
     </div>
     <p class="rsvp-msg" id="rsvpMsg"></p>
 
-    <p class="footer">— Hải Bằng —</p>
+    <p class="footer">— Trung Vĩnh —</p>
   </main>
 
   <script>
@@ -882,7 +882,7 @@
     }, 2500);
 
     // === Countdown ===
-    const TARGET = new Date('2026-06-11T08:00:00+07:00').getTime();
+    const TARGET = new Date('2026-11-25T10:00:00+07:00').getTime();
     const els = {
       d: document.getElementById('cdDays'),
       h: document.getElementById('cdHours'),
@@ -943,7 +943,7 @@
           if (!res.ok) throw new Error('bad status');
           rsvpWrap.style.display = 'none';
           rsvpMsg.textContent = response === 'yes'
-            ? 'Cảm ơn bạn! Hẹn gặp ở UIT 🎓'
+            ? 'Cảm ơn bạn! Hẹn gặp ở IUH 🎓'
             : 'Cảm ơn bạn đã hồi âm ❤️';
           rsvpMsg.style.display = 'block';
         } catch (e) {
